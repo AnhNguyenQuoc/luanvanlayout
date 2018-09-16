@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DeliverFoo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href='asset/css/show-restaurant.css'>
+    <link rel="stylesheet" type="text/css" href='asset/css/mobile.css'>
+    <link rel="stylesheet" type="text/css" href='asset/css/footer.css'>
+</head>
+
+<body>
+    <header class="header" style="background-image: none;">
+        <div class="header-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand logo" href="#">Logo </a>
+                <span class="only-show-mobile">
+                    <a href="">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </span>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item second-header">
+                            <a class="nav-link" href="login.html">Đăng nhập</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-restaurant pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <nav aria-label="breadcrumb" class="breadcrumb-show">
+                        <ol class="breadcrumb" style="background: transparent;">
+                            <li class="breadcrumb-item">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="#">Cửa hàng</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                Resto
+                            </li>
+                        </ol>
+                    </nav>
+                    <div class="main-restaurant-text">
+                        <h1>Protein Haus - Berner Street</h1>
+
+                        <div class="pt-2">
+                            <span class="mt-1 rate">10</span>
+                            <small>36 Berners St, Fitzrovia, London W1T, London, London -</small>
+                            <small>+442074361156 -</small>
+                            <small>Open until 19:30 -</small>
+                            <small>Breakfast</small>
+                            <br>
+                            <span>Look no further for super-healthy, filling food. Catering to all health goals and diets, Protein
+                                Haus serves a dazzling array of fresh fitness food, thick protein shakes, and detoxifying
+                                green juices. The low-carb cookies are a guilt-free indulgence!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="img-main-restaurant mt-2">
+                        <img src="asset/image/menu1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="img-main-restaurant-text">
+                        <span>Mở cửa từ</span>
+                        <br>
+                        <span>8AM - 8PM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-menu pt-5 pb-3">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-8 col-sm-12">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Đồ ăn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Đồ uống</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Ăn vặt</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content tab-menu" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row">
+                                <div class="div col-md-6 menu-item mt-3">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn button-in-tab-menu" data-toggle="modal" data-target="#food1">
+                                        <div>
+                                            <h5>
+                                                Double Combo
+                                            </h5>
+                                            <span>
+                                                Have two big hot boxes or salads with two drinks, plus three sides or treats
+                                            </span>
+                                            <span>10$</span>
+                                        </div>
+
+                                    </button>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="food1" tabindex="-1" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="food1">Chọn kích cỡ dành cho Double Combo</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label">
+                                                                <input type="radio" class="form-check-input" name="optradio1">S
+                                                                <span>10$</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label">
+                                                                <input type="radio" class="form-check-input" name="optradio1">M
+                                                                <span>20$</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label">
+                                                                <input type="radio" class="form-check-input" name="optradio1">L
+                                                                <span>30$</span>
+                                                            </label>
+                                                        </div>
+                                                        <br>
+                                                        <button class="btn float-right">
+                                                            Thêm vào đơn hàng
+                                                        </button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="div col-md-6 menu-item mt-3">
+                                    <button type="button" class="btn button-in-tab-menu" data-toggle="modal" data-target="#food2">
+                                        <div>
+                                            <h5>
+                                                Double Combo
+                                            </h5>
+                                            <span>
+                                                Have two big hot boxes or salads with two drinks, plus three sides or treats
+                                            </span>
+                                            <span>10$</span>
+                                        </div>
+
+                                    </button>
+                                    <div class="modal fade" id="food2" tabindex="-1" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="food2">Chọn kích cỡ dành cho Double Combo</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label">
+                                                                <input type="radio" class="form-check-input" name="optradio">S
+                                                                <span>10$</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label">
+                                                                <input type="radio" class="form-check-input" name="optradio">M
+                                                                <span>20$</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <label class="form-check-label">
+                                                                <input type="radio" class="form-check-input" name="optradio">L
+                                                                <span>30$</span>
+                                                            </label>
+                                                        </div>
+                                                        <br>
+                                                        <button class="btn float-right">
+                                                            Thêm vào đơn hàng
+                                                        </button>
+                                                    </form>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 checkout">
+                    <button class="btn btn-block">Checkout</button>
+                    <div class="list-checkout-item">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div>
+                                    <a href="">
+                                        <i class="fas fa-minus-circle"></i>
+                                    </a>
+                                    <span class="badge badge-pill">2</span>
+                                    <a href="">
+                                        <i class="fas fa-plus-circle"></i>
+                                    </a>
+                                </div>
+                                <span class="mx-auto">Dapibus ac facilisis in</span>
+                                <span>50.000vnd</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div>
+                                    <a href="">
+                                        <i class="fas fa-minus-circle"></i>
+                                    </a>
+                                    <span class="badge badge-pill">2</span>
+                                    <a href="">
+                                        <i class="fas fa-plus-circle"></i>
+                                    </a>
+                                </div>
+                                <span class="mx-auto">Dapibus ac facilisis in</span>
+                                <span>50.000vnd</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <div>
+                                    <a href="">
+                                        <i class="fas fa-minus-circle"></i>
+                                    </a>
+                                    <span class="badge badge-pill">3</span>
+                                    <a href="">
+                                        <i class="fas fa-plus-circle"></i>
+                                    </a>
+                                </div>
+                                <span class="mx-auto">Morbi leo risus</span>
+                                <span>50.000vnd</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="list-checkout-total">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <span>Tổng cộng</span>
+                                <div>
+                                    <span class="badge badge-pill">500.000vnd</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="comment">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h6 class="comment-text">Nhận xét</h6>
+                </div>
+            </div>
+            <div class="row  mt-3">
+                <div class="col-md-8 col-sm-12">
+                    <div class="card comment-card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">John Nany
+                                <span class="float-right">10</span>
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">12-12-2018</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="img-container">
+                                <img src="asset/image/menu1.jpg" alt="123">
+                                <img src="asset/image/menu1.jpg" alt="123">
+                                <img src="asset/image/menu1.jpg" alt="123">
+                                <img src="asset/image/menu1.jpg" alt="123">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card comment-card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">John Nany
+                                <span class="float-right">10</span>
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">12-12-2018</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="img-container">
+                                <img src="asset/image/menu1.jpg" alt="123">
+                                <img src="asset/image/menu1.jpg" alt="123">
+                                <img src="asset/image/menu1.jpg" alt="123">
+                                <img src="asset/image/menu1.jpg" alt="123">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card comment-card mb-2">
+                        <div class="card-body">
+                            <h5 class="card-title">John Nany
+                                <span class="float-right">10</span>
+                            </h5>
+                            <h6 class="card-subtitle mb-2 text-muted">12-12-2018</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.Some
+                                quick example text to build on the card title and make up the bulk of the card's content.Some
+                                quick example text to build on the card title and make up the bulk of the card's content.Some
+                                quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="img-container">
+                                <img src="asset/image/menu1.jpg" alt="123">
+                                <img src="asset/image/menu1.jpg" alt="123">
+                                <img src="asset/image/menu1.jpg" alt="123">
+                                <img src="asset/image/menu1.jpg" alt="123">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 btn-comment">
+                    <button type="button" class="btn btn-block" data-toggle="modal" data-target="#comment">
+                        Viết nhận xét
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="comment" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content modal-comment">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Viết nhận xét</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlTextarea1">Nhập nhận xét:</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleFormControlFile1">Đăng hình:</label>
+                                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="formControlRange">Điểm:</label>
+                                            <input type="range" class="form-control-range" min="0" max="10" value="0">
+                                        </div>
+                                        <button type="submit" class="btn btn-block">Đăng nhận xét</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class=" footer ">
+        <div class="container ">
+            <div class="row mt-5 ">
+                <div class="col-sm-12 col-md-4 mb-2 mt-3 ">
+                    <div class="footer-body ">
+                        <h3>Discover DeliveFoo</h3>
+                        <ul>
+                            <li>
+                                <a href='#'>About us</a>
+                            </li>
+                            <li>
+                                <a href='#'>Newsroom</a>
+                            </li>
+                            <li>
+                                <a href="# ">Foodscene blog</a>
+                            </li>
+                            <li>
+                                <a href="# ">Engineering blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 mb-2 mt-3 ">
+                    <div class="footer-body ">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li>
+                                <a href='#'>Terms and conditions</a>
+                            </li>
+                            <li>
+                                <a href='#'>Privacy</a>
+                            </li>
+                            <li>
+                                <a href="# ">Cookies</a>
+                            </li>
+                            <li>
+                                <a href="# ">Modern Slavery Statement</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 mb-2 mt-3 ">
+                    <div class="footer-body ">
+                        <h3>Help</h3>
+                        <ul>
+                            <li>
+                                <a href='#'>Contact</a>
+                            </li>
+                            <li>
+                                <a href='#'>FAQ</a>
+                            </li>
+                            <li>
+                                <a href="# ">Site map</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <nav class="text-footer ">
+                    <div class="mb-3 ">© 2018 DeliveFoo</div>
+                </nav>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        crossorigin="anonymous "></script>
+</body>
+
+</html>
